@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wheater website</title>
+    <link rel="shortcut icon" href="images/icon.png" type="image/vnd.microsoft.icon">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <div class="container">
+        <div class="element">
+            <input type="text" id="city" placeholder="Enter city">
+            <button id="myBtn" onclick="show_temp()">Enter</button>    
+            <p style="font-size: 20px;" id="status"></p>
+            <h3 style="font-size: 30px;" id="wheater_title"></h3>
+            <div id="table">
+                <span>Degrees<strong id="degrees"></strong></span><br><br>
+                <span>Humidity<strong id="humidity"></strong></span><br><br>
+                <span>Wind<strong id="wind_speed"></strong></span>
+            </div>
+        </div>
+    </div>
+    <script src="js/button_trigger.js"></script>
+    <script src="js/get_wheater.js"></script>
+</body>
+</html
