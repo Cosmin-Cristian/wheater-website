@@ -12,6 +12,10 @@ body {
     margin: auto;
 }
 
+noscript {
+    text-aling:center;
+}
+
 .element{
   display: table-cell;
   text-align: center;
